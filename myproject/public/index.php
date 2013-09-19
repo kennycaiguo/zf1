@@ -1,4 +1,5 @@
 <?php
+// 总控，所有请求都通过apache转发给这个文件
 
 // Define path to application directory
 defined('APPLICATION_PATH')

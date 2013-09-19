@@ -5,12 +5,15 @@ class IndexController extends Zend_Controller_Action
 
     public function init()
     {
-        /* Initialize action controller here */
+
     }
 
     public function indexAction()
     {
-        // action body
+
+
+       	// 如果这里不写，就相当于有这句代码
+        $this->render('index');
     }
 
 
